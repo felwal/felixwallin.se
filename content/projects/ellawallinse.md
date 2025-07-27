@@ -17,15 +17,14 @@ weight: 2
 aliases: [ellawallin]
 ---
 
-[Ella Wallin](https://ellawallin.se) is an illustrator and concept artist who recently graduated from Vancouver Film School. In close coordination, I designed and developed her portfolio website.
+[Ella Wallin](https://ellawallin.se) is an illustrator and concept artist graduated from Vancouver Film School. In close coordination, I designed and developed her portfolio website.
 
-{{< devicerow wide=true >}}
+{{< devicerow wide=false >}}
     {{< device src="/images/ellawallin-home.png" form="pc" >}}
 {{< /devicerow >}}
 
-{{< devicerow force-row=false wide=true >}}
+{{< devicerow force-row=false wide=false >}}
     {{< device src="/images/ellawallin-project.png" form="pc" >}}
-    {{< device src="/images/ellawallin-project-2.png" form="pc" >}}
 {{< /devicerow >}}
 
 {{< devicerow columns-mobile="2" wide=true >}}
@@ -44,4 +43,4 @@ We started by collecting inspiration from other artists' websites, noting what w
 
 ## Insights
 
-It's been a great learning opportunity in working with a client: discussing requirements, presenting multiple designs, implementing feedback, and prioritising her preferences while utilising my design judgement.
+It's been a great learning opportunity in working with a client: discussing requirements, presenting multiple designs, and combining her preferences with my design judgement.

@@ -107,4 +107,4 @@ While the above project was very limited in scope, this course had a focus on th
     {{< device src="/images/stamped-edit.png" color="blue" >}}
 {{< /devicerow >}}
 
-We performed interviews, cultural probe, personas, storyboards, affinity diagramming, insights extraction, how might we, brainstorming, brainwriting, parallel design, moodboard, and think-aloud.
+We performed interviews, cultural probe, personas, storyboards, affinity diagramming, insights extraction, how might we, brainwriting, parallel design, and think-aloud.

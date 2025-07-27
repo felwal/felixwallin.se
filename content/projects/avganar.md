@@ -41,8 +41,6 @@ See upcoming departures, filtered by transport mode:
     {{< device src="/images/avganar-departures-bus.png" form="watch" >}}
 {{< /devicerow >}}
 
-![](/images/avganar-irl.jpg)
-
 Get deviation warnings and handle errors:
 
 {{< devicerow force-row=true >}}
@@ -71,10 +69,9 @@ At one point the API was updated to require requesting one transport mode at a t
 
 ![Exploring different ways to implement mode selection](/images/avganar-figma.png)
 
-{{< devicerow force-row=true caption="**Right**: before the menu, you would cycle through modes linearly" >}}
+{{< devicerow force-row=true >}}
     {{< device src="/images/avganar-modes.png" form="watch" >}}
     {{< device src="/images/avganar-swe-modes.png" form="watch" color="green" >}}
-    {{< device src="/images/avganar-process-departures-train.png" form="watch" >}}
 {{< /devicerow >}}
 
 ## Insights
