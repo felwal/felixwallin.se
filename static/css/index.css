@@ -75,7 +75,8 @@
   --font-size-body: 1.125rem;
   --font-size-caption: 1rem;
 
-  /* anim */
+  /* composite */
 
   --transition: 0.1s ease-out;
+  --outline-selection: calc(1.5 * var(--width-border)) solid var(--color-primary);
 }

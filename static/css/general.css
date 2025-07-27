@@ -126,3 +126,8 @@ figcaption {
   margin-top: calc(-2 * var(--corner-radius-small));
   border-radius: var(--corner-radius-small);
 }
+
+
+*:focus-visible {
+  outline: var(--outline-selection);
+}

@@ -34,11 +34,14 @@
 }
 
 .item:hover,
-.item:active {
-  outline-style: solid;
-  outline-width: calc(1.5 * var(--width-border));
-  outline-color: var(--color-primary);
+.item:active,
+.item:has(a:focus-visible) {
+  outline: var(--outline-selection);
   outline-offset: -0.15rem;
+}
+
+.item > a:focus-visible {
+  outline: none;
 }
 
 .item__container {}
@@ -73,7 +76,8 @@
 }
 
 .item:hover .item__bg > svg,
-.item:active .item__bg > svg {
+.item:active .item__bg > svg,
+.item > a:focus-visible .item__bg > svg {
   width: calc(0.925 * 2.5rem);
   height: calc(0.925 * 2.5rem);
 }
@@ -91,7 +95,8 @@
 }
 
 .item:hover .item__heading,
-.item:active .item__heading {
+.item:active .item__heading,
+.item > a:focus-visible .item__heading {
   text-decoration-line: none;
   color: var(--color-primary);
 }
@@ -128,7 +133,8 @@
 }
 
 .item--photo:hover > a > .item--photo__thumb,
-.item--photo:active > a > .item--photo__thumb {
+.item--photo:active > a > .item--photo__thumb,
+.item--photo > a:focus-visible > .item--photo__thumb {
   width: calc(100% - 2 * var(--spacing-tiny));
   border-radius: var(--corner-radius-small);
 }
@@ -141,7 +147,9 @@
 .item--grid:hover > a > .item--grid__thumb,
 .item--grid:hover > a > .item--grid__bg,
 .item--grid:active > a > .item--grid__thumb,
-.item--grid:active > a > .item--grid__bg {
+.item--grid:active > a > .item--grid__bg,
+.item--grid > a:focus-visible > .item--grid__thumb,
+.item--grid > a:focus-visible > .item--grid__bg {
   margin: var(--spacing-tiny);
   margin-bottom: 0;
   width: calc(100% - 2 * var(--spacing-tiny));
@@ -166,7 +174,8 @@
 }
 
 .item--list:hover,
-.item--list:active {
+.item--list:active,
+.item--list > a:focus-visible {
   border-top-left-radius: var(--corner-radius-medium);
   border-bottom-left-radius: var(--corner-radius-medium);
 }
@@ -174,7 +183,9 @@
 .item--list:hover > a > .item--list__thumb,
 .item--list:hover > a > .item--list__bg,
 .item--list:active > a > .item--list__thumb,
-.item--list:active > a > .item--list__bg {
+.item--list:active > a > .item--list__bg,
+.item--list > a:focus-visible > .item--list__thumb,
+.item--list > a:focus-visible > .item--list__bg {
   margin-right: 0;
   border-radius: var(--corner-radius-small);
 
