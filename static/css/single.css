@@ -31,9 +31,7 @@ article > :last-child > :last-child {
 }
 
 .callout--secondary {
-  outline-style: solid;
-  outline-width: var(--width-border);
-  outline-color: var(--color-border);
+  outline: var(--outline);
   outline-offset: -0.085rem;
   background-color: unset;
 }
@@ -159,9 +157,7 @@ article > :last-child > :last-child {
 
 .device__bezel > figure > .figure__img {
   border-radius: var(--corner-radius-screen) / calc(var(--corner-radius-screen) * var(--aspect-ratio-device));
-  /*outline-style: solid;
-  outline-width: var(--width-border);
-  outline-color: var(--color-border);*/
+  /*outline: var(--outline);*/
 }
 
 .device--pc > .device__side > .device__bezel > figure > .figure__img {
@@ -172,9 +168,7 @@ article > :last-child > :last-child {
   border-radius: 50%;
 
   /* hide imperfect pixelated edges */
-  outline-style: solid;
-  outline-width: var(--width-border);
-  outline-color: var(--color-device-bezel);
+  outline: var(--width-border) solid var(--color-device-bezel);
   outline-offset: -0.055rem;
 }
 

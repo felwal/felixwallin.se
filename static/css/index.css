@@ -78,5 +78,6 @@
   /* composite */
 
   --transition: 0.1s ease-out;
+  --outline: var(--width-border) solid var(--color-border);
   --outline-selection: calc(1.5 * var(--width-border)) solid var(--color-primary);
 }
