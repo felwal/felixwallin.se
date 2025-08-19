@@ -21,5 +21,5 @@ I believe the creative process is just as valuable as the outcome. I love coming
 {{< callout-group >}}
     {{< callout title="Role" text="Web design & development" >}}
     {{< callout title="Tools" text="Hugo" >}}
-    {{< callout title="Links" text="[Github](https://github.com/felwal/felwal.github.io/)" >}}
+    {{< callout title="Links" text="[Github](https://github.com/felwal/felixwallin.se/)" >}}
 {{< /callout-group >}}

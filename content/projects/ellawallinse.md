@@ -5,7 +5,7 @@ started: 2025-03-12
 role: Web design & development
 links:
   - Live: https://ellawallin.se/
-  - Github: https://github.com/ellawallin/ellawallin.github.io
+  - Github: https://github.com/felwal/ellawallin.se
 tools: [Hugo]
 keytag: Website
 images: [ellawallin-hero.png]
