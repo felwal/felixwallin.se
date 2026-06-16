@@ -2,6 +2,7 @@
 title: ellawallin.se
 summary: Illustration and concept art portfolio
 started: 2025-03-12
+completed: 2026-04-07
 role: Web design & development
 links:
   - Live: https://ellawallin.se/

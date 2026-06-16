@@ -91,9 +91,8 @@ Individually I started by exploring the feeding mechanism – I wanted it to be 
 
 ## Related project: Stamped
 
-
 {{< callout-group >}}
-    {{< callout title="Brief" text="Design for _interdependence_" >}}
+    {{< callout title="Brief" text="Design for interdependence" >}}
     {{< callout title="Team" text="Kristina Högberg, Edina Niculescu, Lennard Scheibel, Aikaterini Tsioutsia" >}}
     {{< callout text="Sep – Oct 2023" outline=true >}}
 {{< /callout-group >}}
