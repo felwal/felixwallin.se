@@ -32,7 +32,7 @@ Our design aims to make salient our very one-way relationship to the rest of nat
 
 ![](/images/acorn-nocorn-win.png)
 
-There is [little evidence](https://www.academia.edu/39819762/Decoupling_Debunked_Evidence_and_arguments_against_green_growth_as_a_sole_strategy_for_sustainability_open_access_) of absolute decoupling between global economic growth and resource extraction, yet the narrative of green growth dominates. These things are complex, so we take a simple case: acorns (ecology) are directly transformed into points (economy). The squirrel dies as a direct consequence of the user's actions.
+There is [little evidence](https://www.academia.edu/39819762/Decoupling_Debunked_Evidence_and_arguments_against_green_growth_as_a_sole_strategy_for_sustainability_open_access_) of absolute decoupling between global economic growth and resource extraction, yet narratives of green growth dominate. These things are complex, so we take a simple case: acorns (ecology) are directly transformed into points (economy). The squirrel dies as a direct consequence of the user's actions.
 
 Yet we also use reductionist metrics and information-hiding to nudge the user towards our intended behaviour and to make the design more impactful: The counter incentivises stealing acorns (you get more of what you quantify), and the consequences are made clear only _after_ the fact.
 
